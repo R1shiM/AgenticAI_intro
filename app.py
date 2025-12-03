@@ -30,7 +30,9 @@ def pokemon_info(name: str) -> str:
 
 @tool
 def get_current_time_in_timezone(timezone: str) -> str:
-    """A tool that fetches the current local time in a specified timezone."""
+    """A tool that fetches the current local time in a specified timezone.
+    Args:
+        timezone: the timezone the user wants to fetch the time in."""
     try:
         tz = pytz.timezone(timezone)
         local_time = datetime.datetime.now(tz).strftime("%Y-%m-%d %H:%M:%S")
