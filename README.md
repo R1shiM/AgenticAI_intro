@@ -1,3 +1,5 @@
+This is me following along the Unit 1 of the Agentic AI course on HuggingFace!
+
 ---
 title: First Agent Template
 emoji: ⚡
